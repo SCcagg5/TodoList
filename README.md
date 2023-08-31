@@ -116,3 +116,38 @@ mark_completed(tasks_list, task_index)
 ```
 
 </details>
+
+
+| Objects     |                      |        |
+|-------------|:--------------------:|-------:|
+| **Task Object** |                    |         |
+| Properties: |                      |         |
+| | `description` | Description of the task. |   |
+| | `due_date`   | Due date of the task. |       |
+| | `priority`   | Priority of the task (high, medium, low). | |
+| | `completed`  | Completion status of the task. |     |
+| Methods: |                         |         |
+| | `__init__(self, description, due_date, priority)` | Initialize a new Task object. | |
+| | `complete(self)` | Mark the task as completed. |   |
+| | `__str__(self)` | Return a string representation of the task. | |
+
+| Functions   |                      |        |
+|-------------|:--------------------:|-------:|
+| `add_task` | | |
+| Description: | Add a new task to the list of tasks. | |
+| Parameters: | `tasks_list` | The list of tasks. |
+| | `description` | Description of the task. |
+| | `due_date`   | Due date of the task. |
+| | `priority`   | Priority of the task. |
+| Usage: | `add_task(tasks_list, description, due_date, priority)` | |
+
+| `list_tasks` | | |
+| Description: | List all tasks in the order of due dates and priorities. | |
+| Parameters: | `tasks_list` | The list of tasks. |
+| Usage: | `list_tasks(tasks_list)` | |
+
+| `mark_completed` | | |
+| Description: | Mark a task as completed. | |
+| Parameters: | `tasks_list` | The list of tasks. |
+| | `task_index` | Index of the task to mark as completed. |
+| Usage: | `mark_completed(tasks_list, task_index)` | |
