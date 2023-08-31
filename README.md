@@ -26,7 +26,6 @@ TodoList is a simple command-line tool to help you manage your tasks. It allows 
 
 ## Screenshots
 ![Screenshot](screenshot.png)
-(Note: Insert screenshots showcasing the program in action if desired.)
 
 ## Project Structure
 - `todo_list.py`: The main Python script containing the TodoList class and the user interface.
