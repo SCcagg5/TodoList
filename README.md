@@ -1,9 +1,7 @@
 # TodoList
+#### Video Demo:  <URL HERE>
+#### Description:
 
-## Video Demo
-[Link to Video Demo](<URL HERE>)
-
-## Description
 TodoList is a simple command-line tool to help you manage your tasks. It allows you to keep track of tasks, their due dates, priorities, and completion status.
 
 ## Features
