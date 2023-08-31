@@ -140,12 +140,12 @@ mark_completed(tasks_list, task_index)
 | | `due_date`   | Due date of the task. |
 | | `priority`   | Priority of the task. |
 | Usage: | `add_task(tasks_list, description, due_date, priority)` | |
-
+|||
 | `list_tasks` | | |
 | Description: | List all tasks in the order of due dates and priorities. | |
 | Parameters: | `tasks_list` | The list of tasks. |
 | Usage: | `list_tasks(tasks_list)` | |
-
+|||
 | `mark_completed` | | |
 | Description: | Mark a task as completed. | |
 | Parameters: | `tasks_list` | The list of tasks. |
