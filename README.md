@@ -24,9 +24,6 @@ TodoList is a simple command-line tool to help you manage your tasks. It allows 
 2. The program will display a list of tasks sorted by due date and priority.
 3. Follow the on-screen menu to add tasks, list tasks, mark tasks as completed, and more.
 
-## Screenshots
-![Screenshot](screenshot.png)
-
 ## Project Structure
 - `todo_list.py`: The main Python script containing the TodoList class and the user interface.
 - `tasks.json`: A JSON file used to store tasks data.
