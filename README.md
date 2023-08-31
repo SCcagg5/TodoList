@@ -45,109 +45,73 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 This project is licensed under the MIT License.
 
-<!-- Object: Task -->
 <details>
 <summary><strong>Task Object</strong></summary>
 
-### Properties
-- `description`: Description of the task.
-- `due_date`: Due date of the task.
-- `priority`: Priority of the task (high, medium, low).
-- `completed`: Completion status of the task.
+| Properties | Description                  |
+|------------|------------------------------|
+| `description` | Description of the task.  |
+| `due_date`   | Due date of the task.    |
+| `priority`   | Priority of the task (high, medium, low). |
+| `completed`  | Completion status of the task. |
 
-### Methods
-- `__init__(self, description, due_date, priority)`: Initialize a new Task object.
-- `complete(self)`: Mark the task as completed.
-- `__str__(self)`: Return a string representation of the task.
+| Methods | Description                                    |
+|---------|------------------------------------------------|
+| `__init__(self, description, due_date, priority)` | Initialize a new Task object. |
+| `complete(self)` | Mark the task as completed.   |
+| `__str__(self)` | Return a string representation of the task. |
 
 </details>
 
-<!-- Function: add_task -->
 <details>
 <summary><strong>add_task Function</strong></summary>
 
-### Description
-Add a new task to the list of tasks.
+| Description | Add a new task to the list of tasks. |
+|-------------|---------------------------------------|
 
-### Parameters
-- `tasks_list`: The list of tasks.
-- `description`: Description of the task.
-- `due_date`: Due date of the task.
-- `priority`: Priority of the task.
+| Parameters | |
+|------------|-----------------------------------|
+| `tasks_list` | The list of tasks.                |
+| `description` | Description of the task.         |
+| `due_date`   | Due date of the task.            |
+| `priority`   | Priority of the task.            |
 
-### Usage
-```python
-add_task(tasks_list, description, due_date, priority)
-```
+| Usage | |
+|-------|-----------------------------------|
+| `add_task(tasks_list, description, due_date, priority)` | |
 
 </details>
 
-<!-- Function: list_tasks -->
 <details>
 <summary><strong>list_tasks Function</strong></summary>
 
-### Description
-List all tasks in the order of due dates and priorities.
+| Description | List all tasks in the order of due dates and priorities. |
+|-------------|-------------------------------------------------------|
 
-### Parameters
-- `tasks_list`: The list of tasks.
+| Parameters | |
+|------------|-------------------------------------------|
+| `tasks_list` | The list of tasks.                        |
 
-### Usage
-```python
-list_tasks(tasks_list)
-```
+| Usage | |
+|-------|-------------------------------------------|
+| `list_tasks(tasks_list)` | |
 
 </details>
 
-<!-- Function: mark_completed -->
 <details>
 <summary><strong>mark_completed Function</strong></summary>
 
-### Description
-Mark a task as completed.
+| Description | Mark a task as completed. |
+|-------------|---------------------------|
 
-### Parameters
-- `tasks_list`: The list of tasks.
-- `task_index`: Index of the task to mark as completed.
+| Parameters | |
+|------------|-------------------|
+| `tasks_list` | The list of tasks.   |
+| `task_index` | Index of the task to mark as completed. |
 
-### Usage
-```python
-mark_completed(tasks_list, task_index)
-```
+| Usage | |
+|-------|-------------------------------------------|
+| `mark_completed(tasks_list, task_index)` | |
 
 </details>
 
-
-| Objects     |                      |        |
-|-------------|:--------------------:|-------:|
-| **Task Object** |                    |         |
-| Properties: |                      |         |
-| | `description` | Description of the task. |   |
-| | `due_date`   | Due date of the task. |       |
-| | `priority`   | Priority of the task (high, medium, low). | |
-| | `completed`  | Completion status of the task. |     |
-| Methods: |                         |         |
-| | `__init__(self, description, due_date, priority)` | Initialize a new Task object. | |
-| | `complete(self)` | Mark the task as completed. |   |
-| | `__str__(self)` | Return a string representation of the task. | |
-
-| Functions   |                      |        |
-|-------------|:--------------------:|-------:|
-| `add_task` | | |
-| Description: | Add a new task to the list of tasks. | |
-| Parameters: | `tasks_list` | The list of tasks. |
-| | `description` | Description of the task. |
-| | `due_date`   | Due date of the task. |
-| | `priority`   | Priority of the task. |
-| Usage: | `add_task(tasks_list, description, due_date, priority)` | |
-|||
-| `list_tasks` | | |
-| Description: | List all tasks in the order of due dates and priorities. | |
-| Parameters: | `tasks_list` | The list of tasks. |
-| Usage: | `list_tasks(tasks_list)` | |
-|||
-| `mark_completed` | | |
-| Description: | Mark a task as completed. | |
-| Parameters: | `tasks_list` | The list of tasks. |
-| | `task_index` | Index of the task to mark as completed. |
-| Usage: | `mark_completed(tasks_list, task_index)` | |
